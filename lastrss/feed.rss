@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+<title>AI Classified RSS Aggregator</title>
+<link>https://werss.lc123452000.vip/feed/all.rss</link>
+<description>A custom feed containing classified summaries of multiple RSS feeds.</description>
+<lastBuildDate>Fri, 13 Mar 2026 16:55:29 +0800</lastBuildDate>
+<docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+<generator>AI Studio Aggregator</generator>
+<language>en</language>
+<copyright>All rights reserved</copyright>
+<item>
+<title><![CDATA[RSS总结内容：3/12/2026]]></title>
+<link>https://werss.lc123452000.vip/feed/all.rss#summary-20260312</link>
+<guid isPermaLink="false">summary-20260312</guid>
+<pubDate>Fri, 13 Mar 2026 16:55:29 +0800</pubDate>
+<description><![CDATA[<ul><li><strong>教程 / 使用指南</strong><ul><li><a href="https://mp.weixin.qq.com/s/KZ8oYynuY_wEyzIzJhrRFA">【聊一聊】广州公积金按月还贷，账户余额不足怎么办？</a></li><li><a href="https://mp.weixin.qq.com/s/h-xcdAEj_NClAhzRCtQEyw">2026广东春季高考志愿填报操作流程及指南！提前用辅助系统查分数线及招生计划→</a></li><li><a href="https://mp.weixin.qq.com/s/6W29Sd-YU2Gnvv8bRU7d1Q">外地人可以参加广州的有奖发票活动吗？</a></li><li><a href="https://mp.weixin.qq.com/s/eg7g9tK9DPg1fpC-0bSvbQ">异地就医如何才能使用深圳医保报销？</a></li><li><a href="https://mp.weixin.qq.com/s/-G9mFpBAonw1g3YSOEehEg">封面设计排版，不是人该干的活，该交给ai</a></li><li><a href="https://mp.weixin.qq.com/s/9rT5CLV-Vf7LvQEsKJqhiw">OpenClaw龙虾技校Skill选课指南</a></li><li><a href="https://web.okjike.com/u/63b19e720d4eed24fc7dfb7a/post/69b2ac419f3cd84f656e9c25">一文说清🦞娃娃该上学了，课（skill） 怎么选，志愿怎么填🥹</a></li><li><a href="https://mp.weixin.qq.com/s/1akDs5IJOoH1iK1BLIQUgw">年终奖单独计税和合并计税哪个更划算？</a></li><li><a href="https://mp.weixin.qq.com/s/O4BMfoZY9j8mzcG0Ggnoow">老家有房，还能提取深圳公积金吗？</a></li></ul></li><li><strong>模型 / 评测 / 对比 / 选型建议</strong><ul><li><a href="https://mp.weixin.qq.com/s/TTgeFQKEXPn-zMH0baIsmA">SenseAI 荐读｜2026年 A16Z GenAI 应用 Top 100</a></li><li><a href="https://mp.weixin.qq.com/s/2sD0ymHeOk_vsjx_SxFZVA">Legora、Mercor 都在用，Reducto 能成为独立的 LLM 数据入口吗？</a></li></ul></li><li><strong>经验分享 / 深度思考 / 踩坑复盘</strong><ul><li><a href="https://mp.weixin.qq.com/s/UyYVjlBCvQRJI6B_MmZbsA">推荐MiroFish作者写的这篇超级个体+vibecoding的感悟文章，非常热血+具体+真实+有用+有洞察力，大家可以看看我截图的金句部分。
+
+🦞锐评：会写代码的人不再稀缺，会把 AI、市场、叙事和速度拧成一股绳的人才稀缺。所谓“超级个体”，本质不是一个人更苦，而是一个人第一次能像组织一样行动。
+
+📎 3个月，从微舆BettaFish开源项目爆火到获三千万投资，我亲历了Vibe Coding带来的超级个体时代
+🔗 https://mp.weixin.qq.com/s/UyYVjlBCvQRJI6B_MmZbsA
+
+✨重点
+●🚀 作者回顾自己 3 个月内从做开源项目 BettaFish，到项目爆火、收到大量 offer 和投资邀约，最后在盛大支持下拿到 3000 万人民币投资，孵化新项目 MiroFish。
+
+●🔭 他对 BettaFish 的反思是：舆情分析只能告诉你“发生了什么”，但真正有价值的是“接下来会怎样”，所以 MiroFish 转向“多智能体预测引擎/数字沙盘”。
+
+●⚙️ 两个项目都被他说成是“10 天 Vibe Coding 产物”，但他强调真正最耗时的不是写代码，而是前期调研、技术选型、产品定位、任务拆解。
+
+●🎨 他的典型流程是：先用 Figma/AI 工具把界面方向摸出来，再用 Google AI Studio 快速做可交互 demo，确认体验后写进文档，再交给 AI IDE/agent 分模块开发。
+
+●🧠 模型分工上，他的体感是：Gemini 更适合前端审美、页面效果、交互细节；Claude 更适合复杂工程结构、接口设计、稳定性和“老工程师”式的脏活累活。
+
+●👥 他很推“多开 agent 并行”——同一任务同时丢给多个 agent 做，再从里面挑最优方案。贵是贵，但能更快摸清不同模型的能力边界。
+
+●🧷 他反复强调 git 和文档是高速开发的“刹车系统”：文档不只是给人看，也是给 AI 的架构说明 and 提示词底座；没有这两个，项目很容易越跑越失控。
+
+●📣 对开源和独立开发，他总结了几条很实用的经验：选题先调研、从垂直到大众、不要追求大而全、提前准备好可传播素材、以及“代码是冷的，故事是热的”。
+
+●🏢 他还给了一个市场判断：现在企业最想要两类人——基本功特别扎实的人，和能熟练驾驭 AI、快速把事情从 0 推到 70 分的人；两者兼具最稀缺。
+
+●📬 文章最后其实已经从复盘切到招募：MiroFish 正在上海招全职/实习，希望找“会驾驭 AI、行动快、想象力强”的年轻人一起做“预测万物”的产品。</a></li><li><a href="https://web.okjike.com/u/607faae0ce04680017bd71b1/post/69b2856759e3a1cf6248c3fd">从各大指数看，龙虾的热度在国内终于开始降下来了，而从谷歌趋势看，全球比我们冷静，也比我们持久。所以，继续严肃地养，用最好的模型，毕竟Gartner曲线第二个坡才是真正收获的时候。</a></li><li><a href="https://mp.weixin.qq.com/s/WtQKUBPzqxlcToFuZTJtgA">a16z：Agent 表现不好，可能是缺乏正确的数据上下文</a></li><li><a href="https://mp.weixin.qq.com/s/JsCISfZFfzDpAHU3vCvHkQ">AI 时代如何设计反馈系统</a></li><li><a href="https://web.okjike.com/u/663a1877918a26ddc1b93020/post/69b2d0dfc5a1d4e6492a71b4">小🦞这个东西又好用又不好用，好用的是如果你对它有需求，它的效果会很惊艳，仿佛又打开了新世界大门。
+​不好用的是，在好用之前需要各种调试，考验的是耐心，考验的是有结果之前你不会把电脑砸了[破涕为笑]
+​所以，绝不是安装完就完了，后面还有很长的路要走。</a></li></ul></li><li><strong>应用场景 / 商业化 / 工作流思考</strong><ul><li><a href="https://web.okjike.com/u/663a1877918a26ddc1b93020/post/69b2520d25bae5661232e288">终于跑通了用龙虾-飞书-多维表格制作分镜的流程，接下来就是进一步优化。</a></li><li><a href="https://mp.weixin.qq.com/s/cQmbmeicb_nb2HGvIj5Yow">闭门小局：OpenClaw之后，有哪些创业机会真正值得去做？</a></li><li><a href="https://mp.weixin.qq.com/s/LZrFwwAg6QmDS_19gmspkw">对话 VisionFlow 创始人刘夜：OpenClaw 这一波，关键是要找到合适的生态位</a></li></ul></li><li><strong>资源 / 福利 / 渠道 / 账号 / 优惠信息</strong><ul><li><a href="https://mp.weixin.qq.com/s/uOGmnOrnvSFQ_kaJ297qhg">“养龙虾”火了！在深圳学AI训练师，符合条件可领至高3120元补贴！</a></li><li><a href="https://mp.weixin.qq.com/s/m8ZtBuK7pOkoXc9pjZAfYQ">春日热销蛋糕，6折起</a></li><li><a href="https://mp.weixin.qq.com/s/ZgGyT9I58eGN2DZIXvi0Dg">“在福田请重要的人吃饭，存好这家店”</a></li><li><a href="https://mp.weixin.qq.com/s/9mbQEMf9snvBnW4WLbflUg">广州3月14日-15日周末活动</a></li><li><a href="https://mp.weixin.qq.com/s/oZkey2vizSAnbKqjNGu3LA">新剧特惠 | 经典童话邂逅音乐剧！《卖火柴的小女孩》深圳站7.5折早鸟开票！</a></li><li><a href="https://mp.weixin.qq.com/s/BDm3lcbJS3O5nJzQpL2c-A">周末去哪玩｜深圳3月13日-3月15日周末演出汇总！</a></li><li><a href="https://mp.weixin.qq.com/s/JLk-jweMWrECGX4usABpDg">只要200元出头的勃艮第一级园，我又真香了！！！</a></li><li><a href="https://mp.weixin.qq.com/s/-jpC3ms7ZuTIgcyLPkL8TQ">这么深藏不露的土菜馆，全城也找不出几家……</a></li><li><a href="https://mp.weixin.qq.com/s/5SOaKcNKP1m9zntfIvJMAg">公交地铁直达！广州5个晒太阳、散步好去处！</a></li><li><a href="https://mp.weixin.qq.com/s/VouPqpDlgVB1kMXftnjd2Q">出纳员/司法辅助人员/辅警…广州一大批机关单位招人！（大专多岗）</a></li><li><a href="https://mp.weixin.qq.com/s/jNY4PJdOJVZslpINKtc0CA">满1000元减200元、满500元减100元！深圳新一轮消费券发放！参与入口→</a></li><li><a href="https://mp.weixin.qq.com/s/CtW-DatmfIx7pW-gD1UnnQ">高中有岗！深圳市招聘消防员926名！(含文员)</a></li></ul></li><li><strong>新闻快讯 / 产品动态</strong><ul><li><a href="https://mp.weixin.qq.com/s/64yCE1EGCEoFklOSB55V5A">国内13 家大厂高调跟进OpenClaw</a></li><li><a href="https://mp.weixin.qq.com/s/maBVnWVWIkaUS7_8OObZRQ">激动！深圳8000m²生活地标即将开业！</a></li><li><a href="https://web.okjike.com/u/5a5180a37873f000116a68fb/post/69b2a0a02d5d9e7c2d57ef87">华盛顿邮报报道，在美以对伊开展的“史诗愤怒行动”中，伊朗米纳布的一所小学被美军导弹击中，造成至少175人死亡。
+
+调查显示，该学校出现在美军目标清单上，疑似被 AI 识别系统误标注为军事工厂或军火库。卫星图像分析显示，该学校校址曾是伊朗海军基地的一部分，可能仍与伊斯兰革命卫队海军有联系。然而，自 2015 年以来，学校已被围墙隔开，并增加了独立入口。卫星图像早在 2017 年就显示出明显的户外操场。
+
+据悉，美军使用了 Palantir 公司的 Maven 系统（集成了 Claude AI 算法）来生成打击目标。虽然军方强调“人机协作”，但在每小时处理数千个目标的极速作战压力下，陈旧的情报数据（该址十年前曾是基地）未被人工修正，导致了这场灾难。</a></li><li><a href="https://web.okjike.com/u/69a322ec53e47a6bd783843a/post/69b2a9c85c8ab7c8ab6ec71c">peter直接喊话腾讯了…</a></li><li><a href="https://mp.weixin.qq.com/s/AFF2vtqckQSqGIo_4WXSMw">3月13日，2026广东高职院校五年一贯制单独招生考试报名开始！招生简章汇总→</a></li><li><a href="https://mp.weixin.qq.com/s/oURr7I5g0v3Odz5jkLXB6A">“电鸡”停放新规4月1日起实施！最高罚10000元！</a></li></ul></li><li><strong>闲聊 / 吐槽 / 无实质内容</strong><ul><li><a href="https://web.okjike.com/u/55f0ecd08abf610e00550d40/post/69b20e2a800201ac68fda252">看豆包回答的时候一度以为它陷入死循环了🥲</a></li><li><a href="https://web.okjike.com/u/663a1877918a26ddc1b93020/post/69b239d28996861c3ba0b540">扣扣搜搜停车费10块，充token138</a></li><li><a href="https://mp.weixin.qq.com/s/FmoynvfNe-jdYHiZJvaMiw">“我也想住灵芝”</a></li><li><a href="https://web.okjike.com/u/67a9a7747d44de3dc6ee9bde/post/69b285e659e3a1cf6248d110">业余的我，是时候开始画漫画了。</a></li><li><a href="https://web.okjike.com/u/62e41f589ac2f3e7547b8e38/post/69b28a7c800201ac6809be10">萝卜快跑遇上晚高峰是对加塞手无肤鸡之力啊！</a></li><li><a href="https://web.okjike.com/u/624558d03eaa6b00102a9b23/post/69b28cc6800201ac6809f2d5">你养龙虾，龙虾也在养你。</a></li></ul></li><li><strong>其他</strong><ul><li><a href="https://web.okjike.com/u/58484335f240b1130098e0f0/post/69b22e164fad62b4251f4737"></a></li><li><a href="https://mp.weixin.qq.com/s/sGQQI7VURXwnKUCdoKpWog">【穗校】民办寄宿制高中，广州市亚加达外国语高级中学介绍</a></li><li><a href="https://mp.weixin.qq.com/s/Qx8igET0BFRqKJoUIGv5Kw">这部值得N刷的舞剧“天花板”，5月来深</a></li><li><a href="https://mp.weixin.qq.com/s/cPDTtD4xouRBGIyzMkX8Dw">“不用去韩国，深圳也能吃到了”</a></li><li><a href="https://mp.weixin.qq.com/s/lEEDhrPbf7_s2fgXrUpU3g">【武汉】氛围感拉满！英伦之声 × 烛光音乐会，治愈所有情绪！</a></li><li><a href="https://mp.weixin.qq.com/s/Lz4IcW0okMG3T845WYQExA">【东莞】本周上演｜十载打磨，一戏倾城：粤剧《白蛇传・情》匠心呈现！</a></li><li><a href="https://mp.weixin.qq.com/s/ambMzZ4eguxp96hc1AvHUQ">【深圳】当我问千问：什么人适合看这部话剧？</a></li><li><a href="https://mp.weixin.qq.com/s/O8fi53iYMHDI5mb-87GmGw">【深圳】深圳人别等了！明天开演，现在还能买到《平潭映象》的票</a></li><li><a href="https://mp.weixin.qq.com/s/pEG4qcY52VTRZm3FEsDzgA">【深圳】汇集剧院魅影、悲惨世界、冰雪奇缘、蝴蝶梦等原版仙卡！3.14-15，六位实力唱将联袂献演！</a></li><li><a href="https://web.okjike.com/u/57e4ec50fd8ee713009852fe/post/69b2d0a546193644219170ba"></a></li></ul></li></ul>]]></description>
+<content:encoded><![CDATA[<ul><li><strong>教程 / 使用指南</strong><ul><li><a href="https://mp.weixin.qq.com/s/KZ8oYynuY_wEyzIzJhrRFA">【聊一聊】广州公积金按月还贷，账户余额不足怎么办？</a></li><li><a href="https://mp.weixin.qq.com/s/h-xcdAEj_NClAhzRCtQEyw">2026广东春季高考志愿填报操作流程及指南！提前用辅助系统查分数线及招生计划→</a></li><li><a href="https://mp.weixin.qq.com/s/6W29Sd-YU2Gnvv8bRU7d1Q">外地人可以参加广州的有奖发票活动吗？</a></li><li><a href="https://mp.weixin.qq.com/s/eg7g9tK9DPg1fpC-0bSvbQ">异地就医如何才能使用深圳医保报销？</a></li><li><a href="https://mp.weixin.qq.com/s/-G9mFpBAonw1g3YSOEehEg">封面设计排版，不是人该干的活，该交给ai</a></li><li><a href="https://mp.weixin.qq.com/s/9rT5CLV-Vf7LvQEsKJqhiw">OpenClaw龙虾技校Skill选课指南</a></li><li><a href="https://web.okjike.com/u/63b19e720d4eed24fc7dfb7a/post/69b2ac419f3cd84f656e9c25">一文说清🦞娃娃该上学了，课（skill） 怎么选，志愿怎么填🥹</a></li><li><a href="https://mp.weixin.qq.com/s/1akDs5IJOoH1iK1BLIQUgw">年终奖单独计税和合并计税哪个更划算？</a></li><li><a href="https://mp.weixin.qq.com/s/O4BMfoZY9j8mzcG0Ggnoow">老家有房，还能提取深圳公积金吗？</a></li></ul></li><li><strong>模型 / 评测 / 对比 / 选型建议</strong><ul><li><a href="https://mp.weixin.qq.com/s/TTgeFQKEXPn-zMH0baIsmA">SenseAI 荐读｜2026年 A16Z GenAI 应用 Top 100</a></li><li><a href="https://mp.weixin.qq.com/s/2sD0ymHeOk_vsjx_SxFZVA">Legora、Mercor 都在用，Reducto 能成为独立的 LLM 数据入口吗？</a></li></ul></li><li><strong>经验分享 / 深度思考 / 踩坑复盘</strong><ul><li><a href="https://mp.weixin.qq.com/s/UyYVjlBCvQRJI6B_MmZbsA">推荐MiroFish作者写的这篇超级个体+vibecoding的感悟文章，非常热血+具体+真实+有用+有洞察力，大家可以看看我截图的金句部分。
+
+🦞锐评：会写代码的人不再稀缺，会把 AI、市场、叙事和速度拧成一股绳的人才稀缺。所谓“超级个体”，本质不是一个人更苦，而是一个人第一次能像组织一样行动。
+
+📎 3个月，从微舆BettaFish开源项目爆火到获三千万投资，我亲历了Vibe Coding带来的超级个体时代
+🔗 https://mp.weixin.qq.com/s/UyYVjlBCvQRJI6B_MmZbsA
+
+✨重点
+●🚀 作者回顾自己 3 个月内从做开源项目 BettaFish，到项目爆火、收到大量 offer 和投资邀约，最后在盛大支持下拿到 3000 万人民币投资，孵化新项目 MiroFish。
+
+●🔭 他对 BettaFish 的反思是：舆情分析只能告诉你“发生了什么”，但真正有价值的是“接下来会怎样”，所以 MiroFish 转向“多智能体预测引擎/数字沙盘”。
+
+●⚙️ 两个项目都被他说成是“10 天 Vibe Coding 产物”，但他强调真正最耗时的不是写代码，而是前期调研、技术选型、产品定位、任务拆解。
+
+●🎨 他的典型流程是：先用 Figma/AI 工具把界面方向摸出来，再用 Google AI Studio 快速做可交互 demo，确认体验后写进文档，再交给 AI IDE/agent 分模块开发。
+
+●🧠 模型分工上，他的体感是：Gemini 更适合前端审美、页面效果、交互细节；Claude 更适合复杂工程结构、接口设计、稳定性和“老工程师”式的脏活累活。
+
+●👥 他很推“多开 agent 并行”——同一任务同时丢给多个 agent 做，再从里面挑最优方案。贵是贵，但能更快摸清不同模型的能力边界。
+
+●🧷 他反复强调 git 和文档是高速开发的“刹车系统”：文档不只是给人看，也是给 AI 的架构说明 and 提示词底座；没有这两个，项目很容易越跑越失控。
+
+●📣 对开源和独立开发，他总结了几条很实用的经验：选题先调研、从垂直到大众、不要追求大而全、提前准备好可传播素材、以及“代码是冷的，故事是热的”。
+
+●🏢 他还给了一个市场判断：现在企业最想要两类人——基本功特别扎实的人，和能熟练驾驭 AI、快速把事情从 0 推到 70 分的人；两者兼具最稀缺。
+
+●📬 文章最后其实已经从复盘切到招募：MiroFish 正在上海招全职/实习，希望找“会驾驭 AI、行动快、想象力强”的年轻人一起做“预测万物”的产品。</a></li><li><a href="https://web.okjike.com/u/607faae0ce04680017bd71b1/post/69b2856759e3a1cf6248c3fd">从各大指数看，龙虾的热度在国内终于开始降下来了，而从谷歌趋势看，全球比我们冷静，也比我们持久。所以，继续严肃地养，用最好的模型，毕竟Gartner曲线第二个坡才是真正收获的时候。</a></li><li><a href="https://mp.weixin.qq.com/s/WtQKUBPzqxlcToFuZTJtgA">a16z：Agent 表现不好，可能是缺乏正确的数据上下文</a></li><li><a href="https://mp.weixin.qq.com/s/JsCISfZFfzDpAHU3vCvHkQ">AI 时代如何设计反馈系统</a></li><li><a href="https://web.okjike.com/u/663a1877918a26ddc1b93020/post/69b2d0dfc5a1d4e6492a71b4">小🦞这个东西又好用又不好用，好用的是如果你对它有需求，它的效果会很惊艳，仿佛又打开了新世界大门。
+​不好用的是，在好用之前需要各种调试，考验的是耐心，考验的是有结果之前你不会把电脑砸了[破涕为笑]
+​所以，绝不是安装完就完了，后面还有很长的路要走。</a></li></ul></li><li><strong>应用场景 / 商业化 / 工作流思考</strong><ul><li><a href="https://web.okjike.com/u/663a1877918a26ddc1b93020/post/69b2520d25bae5661232e288">终于跑通了用龙虾-飞书-多维表格制作分镜的流程，接下来就是进一步优化。</a></li><li><a href="https://mp.weixin.qq.com/s/cQmbmeicb_nb2HGvIj5Yow">闭门小局：OpenClaw之后，有哪些创业机会真正值得去做？</a></li><li><a href="https://mp.weixin.qq.com/s/LZrFwwAg6QmDS_19gmspkw">对话 VisionFlow 创始人刘夜：OpenClaw 这一波，关键是要找到合适的生态位</a></li></ul></li><li><strong>资源 / 福利 / 渠道 / 账号 / 优惠信息</strong><ul><li><a href="https://mp.weixin.qq.com/s/uOGmnOrnvSFQ_kaJ297qhg">“养龙虾”火了！在深圳学AI训练师，符合条件可领至高3120元补贴！</a></li><li><a href="https://mp.weixin.qq.com/s/m8ZtBuK7pOkoXc9pjZAfYQ">春日热销蛋糕，6折起</a></li><li><a href="https://mp.weixin.qq.com/s/ZgGyT9I58eGN2DZIXvi0Dg">“在福田请重要的人吃饭，存好这家店”</a></li><li><a href="https://mp.weixin.qq.com/s/9mbQEMf9snvBnW4WLbflUg">广州3月14日-15日周末活动</a></li><li><a href="https://mp.weixin.qq.com/s/oZkey2vizSAnbKqjNGu3LA">新剧特惠 | 经典童话邂逅音乐剧！《卖火柴的小女孩》深圳站7.5折早鸟开票！</a></li><li><a href="https://mp.weixin.qq.com/s/BDm3lcbJS3O5nJzQpL2c-A">周末去哪玩｜深圳3月13日-3月15日周末演出汇总！</a></li><li><a href="https://mp.weixin.qq.com/s/JLk-jweMWrECGX4usABpDg">只要200元出头的勃艮第一级园，我又真香了！！！</a></li><li><a href="https://mp.weixin.qq.com/s/-jpC3ms7ZuTIgcyLPkL8TQ">这么深藏不露的土菜馆，全城也找不出几家……</a></li><li><a href="https://mp.weixin.qq.com/s/5SOaKcNKP1m9zntfIvJMAg">公交地铁直达！广州5个晒太阳、散步好去处！</a></li><li><a href="https://mp.weixin.qq.com/s/VouPqpDlgVB1kMXftnjd2Q">出纳员/司法辅助人员/辅警…广州一大批机关单位招人！（大专多岗）</a></li><li><a href="https://mp.weixin.qq.com/s/jNY4PJdOJVZslpINKtc0CA">满1000元减200元、满500元减100元！深圳新一轮消费券发放！参与入口→</a></li><li><a href="https://mp.weixin.qq.com/s/CtW-DatmfIx7pW-gD1UnnQ">高中有岗！深圳市招聘消防员926名！(含文员)</a></li></ul></li><li><strong>新闻快讯 / 产品动态</strong><ul><li><a href="https://mp.weixin.qq.com/s/64yCE1EGCEoFklOSB55V5A">国内13 家大厂高调跟进OpenClaw</a></li><li><a href="https://mp.weixin.qq.com/s/maBVnWVWIkaUS7_8OObZRQ">激动！深圳8000m²生活地标即将开业！</a></li><li><a href="https://web.okjike.com/u/5a5180a37873f000116a68fb/post/69b2a0a02d5d9e7c2d57ef87">华盛顿邮报报道，在美以对伊开展的“史诗愤怒行动”中，伊朗米纳布的一所小学被美军导弹击中，造成至少175人死亡。
+
+调查显示，该学校出现在美军目标清单上，疑似被 AI 识别系统误标注为军事工厂或军火库。卫星图像分析显示，该学校校址曾是伊朗海军基地的一部分，可能仍与伊斯兰革命卫队海军有联系。然而，自 2015 年以来，学校已被围墙隔开，并增加了独立入口。卫星图像早在 2017 年就显示出明显的户外操场。
+
+据悉，美军使用了 Palantir 公司的 Maven 系统（集成了 Claude AI 算法）来生成打击目标。虽然军方强调“人机协作”，但在每小时处理数千个目标的极速作战压力下，陈旧的情报数据（该址十年前曾是基地）未被人工修正，导致了这场灾难。</a></li><li><a href="https://web.okjike.com/u/69a322ec53e47a6bd783843a/post/69b2a9c85c8ab7c8ab6ec71c">peter直接喊话腾讯了…</a></li><li><a href="https://mp.weixin.qq.com/s/AFF2vtqckQSqGIo_4WXSMw">3月13日，2026广东高职院校五年一贯制单独招生考试报名开始！招生简章汇总→</a></li><li><a href="https://mp.weixin.qq.com/s/oURr7I5g0v3Odz5jkLXB6A">“电鸡”停放新规4月1日起实施！最高罚10000元！</a></li></ul></li><li><strong>闲聊 / 吐槽 / 无实质内容</strong><ul><li><a href="https://web.okjike.com/u/55f0ecd08abf610e00550d40/post/69b20e2a800201ac68fda252">看豆包回答的时候一度以为它陷入死循环了🥲</a></li><li><a href="https://web.okjike.com/u/663a1877918a26ddc1b93020/post/69b239d28996861c3ba0b540">扣扣搜搜停车费10块，充token138</a></li><li><a href="https://mp.weixin.qq.com/s/FmoynvfNe-jdYHiZJvaMiw">“我也想住灵芝”</a></li><li><a href="https://web.okjike.com/u/67a9a7747d44de3dc6ee9bde/post/69b285e659e3a1cf6248d110">业余的我，是时候开始画漫画了。</a></li><li><a href="https://web.okjike.com/u/62e41f589ac2f3e7547b8e38/post/69b28a7c800201ac6809be10">萝卜快跑遇上晚高峰是对加塞手无肤鸡之力啊！</a></li><li><a href="https://web.okjike.com/u/624558d03eaa6b00102a9b23/post/69b28cc6800201ac6809f2d5">你养龙虾，龙虾也在养你。</a></li></ul></li><li><strong>其他</strong><ul><li><a href="https://web.okjike.com/u/58484335f240b1130098e0f0/post/69b22e164fad62b4251f4737"></a></li><li><a href="https://mp.weixin.qq.com/s/sGQQI7VURXwnKUCdoKpWog">【穗校】民办寄宿制高中，广州市亚加达外国语高级中学介绍</a></li><li><a href="https://mp.weixin.qq.com/s/Qx8igET0BFRqKJoUIGv5Kw">这部值得N刷的舞剧“天花板”，5月来深</a></li><li><a href="https://mp.weixin.qq.com/s/cPDTtD4xouRBGIyzMkX8Dw">“不用去韩国，深圳也能吃到了”</a></li><li><a href="https://mp.weixin.qq.com/s/lEEDhrPbf7_s2fgXrUpU3g">【武汉】氛围感拉满！英伦之声 × 烛光音乐会，治愈所有情绪！</a></li><li><a href="https://mp.weixin.qq.com/s/Lz4IcW0okMG3T845WYQExA">【东莞】本周上演｜十载打磨，一戏倾城：粤剧《白蛇传・情》匠心呈现！</a></li><li><a href="https://mp.weixin.qq.com/s/ambMzZ4eguxp96hc1AvHUQ">【深圳】当我问千问：什么人适合看这部话剧？</a></li><li><a href="https://mp.weixin.qq.com/s/O8fi53iYMHDI5mb-87GmGw">【深圳】深圳人别等了！明天开演，现在还能买到《平潭映象》的票</a></li><li><a href="https://mp.weixin.qq.com/s/pEG4qcY52VTRZm3FEsDzgA">【深圳】汇集剧院魅影、悲惨世界、冰雪奇缘、蝴蝶梦等原版仙卡！3.14-15，六位实力唱将联袂献演！</a></li><li><a href="https://web.okjike.com/u/57e4ec50fd8ee713009852fe/post/69b2d0a546193644219170ba"></a></li></ul></li></ul>]]></content:encoded>
+</item>
+</channel>
+</rss>
