@@ -4,11 +4,53 @@
 <title>AI Classified RSS Aggregator</title>
 <link>https://werss.lc123452000.vip/feed/all.rss</link>
 <description>A custom feed containing classified summaries of multiple RSS feeds.</description>
-<lastBuildDate>Fri, 13 Mar 2026 16:57:38 +0800</lastBuildDate>
+<lastBuildDate>Fri, 13 Mar 2026 16:59:22 +0800</lastBuildDate>
 <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
 <generator>AI Studio Aggregator</generator>
 <language>en</language>
 <copyright>All rights reserved</copyright>
+<item>
+<title><![CDATA[RSS总结内容：3/10/2026]]></title>
+<link>https://werss.lc123452000.vip/feed/all.rss#summary-20260310</link>
+<guid isPermaLink="false">summary-20260310</guid>
+<pubDate>Fri, 13 Mar 2026 16:59:22 +0800</pubDate>
+<description><![CDATA[<ul><li><strong>模型 / 评测 / 对比 / 选型建议</strong><ul><li><a href="https://web.okjike.com/u/5766031a708c2711007804f6/post/69b057f9800201ac68d5aa68">用上 OpenClaw 以后，觉得 Manus 卖太便宜了。</a></li></ul></li><li><strong>经验分享 / 深度思考 / 踩坑复盘</strong><ul><li><a href="https://web.okjike.com/u/69ae60de54b051828753cb1f/post/69b0280a7e54155c3da1865b">MCP 不是替代 API，而是在 Agent 和 API 之间增加了一层专为 LLM 推理方式设计的标准化编排层。用架构视角做个类比，MCP 之于 Agent 生态，就像 ESB/API Gateway 之于微服务。
+
+第一个主要的不同：通过 MCP 可以进行状态管理（Stateful Sessions）
+
+传统 API 调用是无状态的，每次请求都是孤立的。MCP 维护跨请求的会话状态，让 Agent 能执行真正的多步骤复合任务，而不是每次都重新建立上下文。
+
+Agent 直接写代码：用户问"帮我查一下我最近买的跑鞋"，Agent 调 API 拿到订单数据，然后用户继续问："这双鞋还在保修期内吗？"——此时 Agent 必须重新传入 user_id + 订单号，把上一步的结果手动拼进新请求，否则 API 不知道"这双鞋"是哪一双。
+
+MCP 的做法：MCP Server 在会话建立时生成一个 session_id，第一次查询"张三最近的订单"后，Server 把结果存入 session state。用户问"这双鞋保修状态"时，Server 已知道"这双鞋"= order_id: 88023，直接用缓存数据查保修，无需 Agent 重复传递上下文。
+
+第二个主要不同：MCP 协议可以进行能力抽象（High-Level Capabilities）
+
+直接调 API 会把 createUser、updateUserAddress、resetPassword 等几十个低级接口全部暴露给 LLM，造成"工具过载"，严重影响推理质量。MCP Server 可以把 these 低级接口封装成一个高级能力 manageUserProfile，让 Agent 专注于目标而非实现细节。
+
+Agent 直接写代码：为了让 Agent 能"帮用户完成退货"，需要暴露 5 个底层接口（查订单、创建退货、更新库存、触发退款、发邮件）。LLM 需要自己推断调用顺序、处理错误码，出错概率极高。
+
+MCP 的做法：将上述 5 步封装成一个高级能力 process_return(order_id, reason)，内部按固定业务流程执行，每一步失败都有统一回滚逻辑。Agent 只需调用这一个工具，完全不需要知道底层有几个接口。</a></li></ul></li><li><strong>应用场景 / 商业化 / 工作流思考</strong><ul><li><a href="https://web.okjike.com/u/67a9a7747d44de3dc6ee9bde/post/69b030f99f3cd84f65344394">AI agent能力越强，越需要个人向内挖掘自己的了解自己。只有自己考虑清楚了自己想要的工作流，个人成长的方式和想要成长的方向，才能让你的agent发挥最大的潜力帮助你。
+现在常有人说新的时代将是“超级个体”的时代，personalisation会变得成本很低，但是我们真的知道自己要的是什么吗？</a></li></ul></li><li><strong>闲聊 / 吐槽 / 无实质内容</strong><ul><li><a href="https://web.okjike.com/u/6537f0de2c04f69127d93d97/post/69af9a1b9f3cd84f6526852b">孙成杰</a></li><li><a href="https://web.okjike.com/u/5ab925c76947b10017b75a6f/post/69afb566876a7357e3e670fb">麦克雷</a></li><li><a href="https://web.okjike.com/u/607f91253122dc0017c672d3/post/69afb6cc876a7357e3e68f94">大湾区符导</a></li><li><a href="https://web.okjike.com/u/63b19e720d4eed24fc7dfb7a/post/69afcf2225bae56612f8679e">Simon的白日梦</a></li><li><a href="https://web.okjike.com/u/624558d03eaa6b00102a9b23/post/69afe1bdc5a1d4e649e521ac">童欧巴</a></li><li><a href="https://web.okjike.com/u/607faae0ce04680017bd71b1/post/69afe27d800201ac68cb4f37">卫夕</a></li><li><a href="https://web.okjike.com/u/5a7368d583d8350017390a88/post/69afe3ffdba18bc919ecfc5d">莫唯书Mark</a></li><li><a href="https://web.okjike.com/u/69ac20a90bfde0f555f0ba6b/post/69afef2bdba18bc919edf5a3">莉莉_t7rT</a></li><li><a href="https://web.okjike.com/u/69ac20a90bfde0f555f0ba6b/post/69afefff9f3cd84f652e874f">莉莉_t7rT</a></li><li><a href="https://web.okjike.com/u/63ea6d6f605933641df5f983/post/69affb3174ed9be7837c6a7a">不吃姜末儿</a></li></ul></li></ul>]]></description>
+<content:encoded><![CDATA[<ul><li><strong>模型 / 评测 / 对比 / 选型建议</strong><ul><li><a href="https://web.okjike.com/u/5766031a708c2711007804f6/post/69b057f9800201ac68d5aa68">用上 OpenClaw 以后，觉得 Manus 卖太便宜了。</a></li></ul></li><li><strong>经验分享 / 深度思考 / 踩坑复盘</strong><ul><li><a href="https://web.okjike.com/u/69ae60de54b051828753cb1f/post/69b0280a7e54155c3da1865b">MCP 不是替代 API，而是在 Agent 和 API 之间增加了一层专为 LLM 推理方式设计的标准化编排层。用架构视角做个类比，MCP 之于 Agent 生态，就像 ESB/API Gateway 之于微服务。
+
+第一个主要的不同：通过 MCP 可以进行状态管理（Stateful Sessions）
+
+传统 API 调用是无状态的，每次请求都是孤立的。MCP 维护跨请求的会话状态，让 Agent 能执行真正的多步骤复合任务，而不是每次都重新建立上下文。
+
+Agent 直接写代码：用户问"帮我查一下我最近买的跑鞋"，Agent 调 API 拿到订单数据，然后用户继续问："这双鞋还在保修期内吗？"——此时 Agent 必须重新传入 user_id + 订单号，把上一步的结果手动拼进新请求，否则 API 不知道"这双鞋"是哪一双。
+
+MCP 的做法：MCP Server 在会话建立时生成一个 session_id，第一次查询"张三最近的订单"后，Server 把结果存入 session state。用户问"这双鞋保修状态"时，Server 已知道"这双鞋"= order_id: 88023，直接用缓存数据查保修，无需 Agent 重复传递上下文。
+
+第二个主要不同：MCP 协议可以进行能力抽象（High-Level Capabilities）
+
+直接调 API 会把 createUser、updateUserAddress、resetPassword 等几十个低级接口全部暴露给 LLM，造成"工具过载"，严重影响推理质量。MCP Server 可以把 these 低级接口封装成一个高级能力 manageUserProfile，让 Agent 专注于目标而非实现细节。
+
+Agent 直接写代码：为了让 Agent 能"帮用户完成退货"，需要暴露 5 个底层接口（查订单、创建退货、更新库存、触发退款、发邮件）。LLM 需要自己推断调用顺序、处理错误码，出错概率极高。
+
+MCP 的做法：将上述 5 步封装成一个高级能力 process_return(order_id, reason)，内部按固定业务流程执行，每一步失败都有统一回滚逻辑。Agent 只需调用这一个工具，完全不需要知道底层有几个接口。</a></li></ul></li><li><strong>应用场景 / 商业化 / 工作流思考</strong><ul><li><a href="https://web.okjike.com/u/67a9a7747d44de3dc6ee9bde/post/69b030f99f3cd84f65344394">AI agent能力越强，越需要个人向内挖掘自己的了解自己。只有自己考虑清楚了自己想要的工作流，个人成长的方式和想要成长的方向，才能让你的agent发挥最大的潜力帮助你。
+现在常有人说新的时代将是“超级个体”的时代，personalisation会变得成本很低，但是我们真的知道自己要的是什么吗？</a></li></ul></li><li><strong>闲聊 / 吐槽 / 无实质内容</strong><ul><li><a href="https://web.okjike.com/u/6537f0de2c04f69127d93d97/post/69af9a1b9f3cd84f6526852b">孙成杰</a></li><li><a href="https://web.okjike.com/u/5ab925c76947b10017b75a6f/post/69afb566876a7357e3e670fb">麦克雷</a></li><li><a href="https://web.okjike.com/u/607f91253122dc0017c672d3/post/69afb6cc876a7357e3e68f94">大湾区符导</a></li><li><a href="https://web.okjike.com/u/63b19e720d4eed24fc7dfb7a/post/69afcf2225bae56612f8679e">Simon的白日梦</a></li><li><a href="https://web.okjike.com/u/624558d03eaa6b00102a9b23/post/69afe1bdc5a1d4e649e521ac">童欧巴</a></li><li><a href="https://web.okjike.com/u/607faae0ce04680017bd71b1/post/69afe27d800201ac68cb4f37">卫夕</a></li><li><a href="https://web.okjike.com/u/5a7368d583d8350017390a88/post/69afe3ffdba18bc919ecfc5d">莫唯书Mark</a></li><li><a href="https://web.okjike.com/u/69ac20a90bfde0f555f0ba6b/post/69afef2bdba18bc919edf5a3">莉莉_t7rT</a></li><li><a href="https://web.okjike.com/u/69ac20a90bfde0f555f0ba6b/post/69afefff9f3cd84f652e874f">莉莉_t7rT</a></li><li><a href="https://web.okjike.com/u/63ea6d6f605933641df5f983/post/69affb3174ed9be7837c6a7a">不吃姜末儿</a></li></ul></li></ul>]]></content:encoded>
+</item>
 <item>
 <title><![CDATA[RSS总结内容：3/11/2026]]></title>
 <link>https://werss.lc123452000.vip/feed/all.rss#summary-20260311</link>
